@@ -1,0 +1,22 @@
+{
+  "name": "com.webos.service.rosbridge",
+  "version": "1.0.0",
+  "description": "rosbridge for webOS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N/A.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N/A/issues"
+  },
+  "homepage": "https://github.com/N/A#readme",
+  "dependencies": {
+    "rclnodejs": "^0.3.5"
+  }
+}

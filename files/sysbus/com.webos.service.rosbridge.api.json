@@ -1,0 +1,13 @@
+{
+    "rosbridge.info": [
+        "com.webos.service.rosbridge/list",
+        "com.webos.service.rosbridge/status"
+    ],
+    "rosbridge.service": [
+        "com.webos.service.rosbridge/call"
+    ],
+    "rosbridge.topic": [
+        "com.webos.service.rosbridge/subscribe",
+        "com.webos.service.rosbridge/publish"
+    ]
+}

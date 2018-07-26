@@ -1,0 +1,13 @@
+{
+    "exeName":"rosbridge",
+    "type": "regular",
+    "allowedNames": ["com.webos.service.rosbridge"],
+    "permissions": [
+        {
+            "service":"com.webos.service.rosbridge",
+            "outbound": [
+                "com.webos.applicationManager"
+            ]
+        }
+    ]
+}
