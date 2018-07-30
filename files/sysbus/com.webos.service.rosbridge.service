@@ -1,4 +1,4 @@
 [D-BUS Service]
 Name=com.webos.service.rosbridge
-Exec=run-js-service -a -u -g -k -w -n /usr/palm/services/com.webos.service.rosbridge
+Exec=/usr/bin/run-js-service -a -u -g -k -w -n /usr/palm/services/com.webos.service.rosbridge
 Type=static

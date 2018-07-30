@@ -1,5 +1,5 @@
 {
-    "exeName":"rosbridge",
+    "appId": "com.webos.service.rosbridge",
     "type": "regular",
     "allowedNames": ["com.webos.service.rosbridge"],
     "permissions": [
