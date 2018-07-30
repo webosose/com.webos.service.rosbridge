@@ -27,8 +27,7 @@ webos_component(1 0 0)
 # Basic
 set(JS_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/index.js
-    ${CMAKE_CURRENT_SOURCE_DIR}/readline_console.js
-    ${CMAKE_CURRENT_SOURCE_DIR}/service_ls2.js
+    ${CMAKE_CURRENT_SOURCE_DIR}/logger.js
     ${CMAKE_CURRENT_SOURCE_DIR}/service_ros2.js
 )
 
