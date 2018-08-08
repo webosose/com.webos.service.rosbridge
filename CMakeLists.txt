@@ -36,6 +36,4 @@ set(INSTALL_DIR ${WEBOS_INSTALL_WEBOS_SERVICESDIR}/com.webos.service.rosbridge)
 install(FILES ${JS_FILES} DESTINATION ${INSTALL_DIR})
 install(FILES package.json DESTINATION ${INSTALL_DIR})
 webos_build_system_bus_files()
-webos_build_configured_file(files/launch/rosbridge.conf SYSCONFDIR init)
-webos_build_configured_file(files/launch/rosbridge.service SYSCONFDIR systemd/system/webos-bd.target.wants)
 

@@ -1,9 +1,0 @@
-# Copyright (c) 2018 LG Electronics, Inc.
-
-description "A manager of the robot flow control"
-
-start on boot-done
-
-script
-    exec run-js-service -a -u -g -k -w -n @WEBOS_INSTALL_WEBOS_SERVICESDIR@/com.webos.service.rosbridge
-end script
